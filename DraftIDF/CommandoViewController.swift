@@ -17,22 +17,21 @@ class CommandoViewController: UIViewController {
  
     @IBOutlet weak var img: UIImageView!
     @IBOutlet weak var titl: UILabel!
-    
     @IBOutlet weak var summ: UILabel!
-    
     @IBOutlet weak var desc: UILabel!
     
     var unit: Unit? //accept video form masterview
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         setUI()
+        desc.sizeToFit()
+
     }
     
     func setUI() //passing data based on cell pic
     {
-          img.image = unit?.image
+        img.image = unit?.image
         desc.text = unit?.description
         titl.text = unit?.title
         summ.text = unit?.summ

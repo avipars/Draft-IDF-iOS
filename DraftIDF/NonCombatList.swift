@@ -52,19 +52,19 @@ class NonCombatList: UIViewController {
         
        let unit13 = Unit(image: #imageLiteral(resourceName: "ic_info_outline"), title: "Other Roles", summary: "Non-Combat Positions", description: "There are hundreds of other roles for men and women in the IDF not directly having to do with combat units. Though sometimes seen as less important, soldiers in these roles provide a vital service to the functioning of the military. Soldiers still have basic training for 2-3 weeks followed by about a 2 month course.")
         
-        tempUnits.append(unit0)
         tempUnits.append(unit1)
-        tempUnits.append(unit2)
-        tempUnits.append(unit3)
+        tempUnits.append(unit9) //cogat
+        tempUnits.append(unit3) //chimush
         tempUnits.append(unit4)
-        tempUnits.append(unit5)
+        tempUnits.append(unit8)
         tempUnits.append(unit6)
         tempUnits.append(unit7)
-        tempUnits.append(unit8)
-        tempUnits.append(unit9)
-        tempUnits.append(unit10)
+        tempUnits.append(unit5)
+        tempUnits.append(unit2) //dover
         tempUnits.append(unit11)
-        tempUnits.append(unit12)
+        tempUnits.append(unit12) //mm z
+        tempUnits.append(unit0) //mash
+        tempUnits.append(unit10) //rab
         tempUnits.append(unit13)
 
         

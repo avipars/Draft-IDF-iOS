@@ -12,7 +12,6 @@ class ViewController: UIViewController {
 
     
     @IBOutlet weak var img: UIImageView!
-   // @IBOutlet weak var img: UIImageView!
     @IBOutlet weak var titl: UILabel!
     @IBOutlet weak var summ: UILabel!
      @IBOutlet weak var desc: UILabel!

@@ -34,7 +34,6 @@ class CombatList: UIViewController {
     let unit0 = Unit(image: #imageLiteral(resourceName: "ic_info_outline"), title: "Combat Units", summary: "", description: "There are many combat units that women can serve in. Look for the listings with the words Co-Ed. Note that most require a gibbush (tryout) and high medical profile.")
     let unit1 = Unit(image: #imageLiteral(resourceName: "nahal"), title: "Nahal נחל", summary: "Infantry Corps",description: "Color of Kumta: Light Green\("\r\n")Basic Training Base: Arad Area in the Negev.\("\r\n")Description: Infantry unit defending Israel’s borders and conducting operations in times of need. Profile: 82+ ") //image literals
     let unit2 = Unit(image: #imageLiteral(resourceName: "givati"), title: "Givati גבעתי", summary: "Infantry", description: "Color of Kumta: Purple\("\r\n")Basic Training Base: Western Negev (near Egyptian border)\("\r\n")Description: Infantry unit defending Israel’s borders and conducting operations in times of need. Profile: 82+")
-    
     let unit3 = Unit(image: #imageLiteral(resourceName: "golani"), title: "Golani גולני", summary: "Infantry", description: "Color of Kumta: Brown\("\r\n")Basic Training Base: Binyamina Area\("\r\n")Description: Infantry unit defending Israel’s borders and conducting operations in times of need. Profile: 82+")
       let unit4 = Unit(image: #imageLiteral(resourceName: "tzanchanim"), title: "Tzanchanim צנחנים", summary: "Paratroopers", description: "Color of Kumta: Red\("\r\n")Basic Training Base: Northern Negev\("\r\n")Description: Paratrooper unit defending Israel’s borders and conducting operations in times of need. Profile: 82+ (Gibbush Needed)")
     let unit5 = Unit(image: #imageLiteral(resourceName: "magav"), title: "Magav מגב", summary: "Military Police", description: "Color of Kumta: Dark Green\("\r\n")Basic Training Base: Benjamin Region\("\r\n")Description: A border police unit that protects within Israel, the West Bank and Jerusalem. Deals with counterterrorism, law enforcement, and riot control. Women are in high demand and are often used to search women crossing borders. Profile: 82+")
@@ -50,33 +49,35 @@ class CombatList: UIViewController {
     let unit13 = Unit(image: #imageLiteral(resourceName: "chelhaavir"), title: "Chel Ha'avir חיל האוויר", summary: "Air Force", description: "Color of Kumta: Grey\("\r\n")Training Base: Hatzerim Airbase, Northern Negev\("\r\n")Description: Protecting Israel from aerial attack, conducting aerial missions and defending the borders. They offer many combat positions from Pilots, UVA Operators, Missile Defense, and Infantry. Profile: 97 for pilots, differs for other positions")
     let unit14 = Unit(image: #imageLiteral(resourceName: "chelhayam"), title: "Chel Hayam חיל הים", summary: "Navy", description: "Color of Kumta: Navy Blue\("\r\n")Training Base: Haifa, Eilat, and Ashdod\("\r\n")Description: The navy's primary objectives are to defend and protect Israel from threats emanating from the sea, to warn of impending warfare and to achieve the goals set by the IDF during warfare. There are many positions for combat soldiers on ships. Profile: 82")
     let unit15 = Unit(image: #imageLiteral(resourceName: "pikkud"), title: "Pikkud Haoref פיקוד העורף", summary: "Home Front Command", description: "Color of Kumta: Orange\("\r\n")Basic Training Base: Central Israel\("\r\n")Description: Dealing with civilians and overall safety during times of war and natural disasters. They have many duties, including search and rescue. Profile: 72+")
-    
     let unit16 = Unit(image: #imageLiteral(resourceName: "lechima"), title: "Lechima Electronit לחימה אלקטרונית", summary: "Cyber Warfare", description: "Color of Kumta: Green\("\r\n")Basic Training Base: Central Israel\("\r\n")Description: Combat soldiers in cyber warfare positions. They operate both in and out of the field. Special application must be submitted three months prior to drafting. Profile: 72+")
-    
     let unit17 = Unit(image: #imageLiteral(resourceName: "woman"), title: "Combat Support Roles", summary: "", description: "There are many support roles within combat units that are filled by women. These are very critical positions that train, guide, assist combat soldiers. Below you will find the most popular positions and their descriptions.")
     let unit18 = Unit(image: #imageLiteral(resourceName: "gun"), title: "Madrichot מדריחות", summary: "Instructors", description: "There are many different types of instructors that teach soldiers how to operate weapons, machinery, tanks, and other devices. Common positions include Chir, Tank, Artillery and more.")
     let unit19 = Unit(image: #imageLiteral(resourceName: "ic_accessibility"), title: "Madagiot מדא״ג", summary: "Trainers", description: "Sports and Fitness Trainers are placed throughout the IDF on bases and specific units. These positions are much like being a personal trainer for combat units and is a very physical position.")
+    let unit22 = Unit(image: #imageLiteral(resourceName: "keladavid"), title: "Kela David קלע דוד", summary: "Special Artillery" , description: "Women are now also allowed to tryout and join the elite units of Moran, Meitar and Skyrider as combat soldiers, commanders, and officers.")
     
     tempUnits.append(unit0)
-    tempUnits.append(unit1)
-    tempUnits.append(unit2)
-    tempUnits.append(unit3)
-    tempUnits.append(unit4)
-    tempUnits.append(unit5)
-    tempUnits.append(unit6)
-    tempUnits.append(unit7)
-    tempUnits.append(unit8)
-    tempUnits.append(unit9)
     tempUnits.append(unit10)
     tempUnits.append(unit21) //stuck in bardelas
-    tempUnits.append(unit20) //stuck in OZ
-    tempUnits.append(unit11)
-    tempUnits.append(unit12)
     tempUnits.append(unit13)
     tempUnits.append(unit14)
+    tempUnits.append(unit2)
+    tempUnits.append(unit3)
+    tempUnits.append(unit11)
+    tempUnits.append(unit9)
+    tempUnits.append(unit12) //karkal
+    //kela david
+    tempUnits.append(unit22)
+    tempUnits.append(unit8) //kfir
+    tempUnits.append(unit16) //lechima
+    tempUnits.append(unit5) //magav
+    tempUnits.append(unit1) //nahal
+    tempUnits.append(unit20) //stuck in OZ
     tempUnits.append(unit15)
-    tempUnits.append(unit16)
-    tempUnits.append(unit17)
+    tempUnits.append(unit7)
+    tempUnits.append(unit6)
+    tempUnits.append(unit4)
+    
+    tempUnits.append(unit17) //extra roles for bottom
     tempUnits.append(unit18)
     tempUnits.append(unit19)
     

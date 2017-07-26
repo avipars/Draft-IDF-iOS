@@ -53,27 +53,34 @@ class CommandoList: UIViewController {
         let unit9 = Unit(image: #imageLiteral(resourceName: "egoz"), title: "Egoz אגוז", summary: "Recon", description: "An elite unit which specializes in both guerrilla and anti-guerrilla warfare, and more advanced ground-forces activity.")
         let unit10 = Unit(image: #imageLiteral(resourceName: "oketz"), title: "Oketz עוקץ", summary: "K-9 Unit", description: "This elite unit which operates throughout the country and with other IDF units. Combat soldiers are paired with specially trained dogs, used to find terrorists, drugs, and explosives. Women can be combat soldiers assigned to a specific dog and are often are often assigned to other units when said units are in need of their specialist skills, for example, the extraction of terrorists from fortified buildings.")
         let unit11 = Unit(image: #imageLiteral(resourceName: "palzar7"), title: "Palsar 7 פלס״ר", summary: "Recon", description: "An elite recon and anti-terror unit for the Armored Corps.")
-        let unit12 = Unit(image: #imageLiteral(resourceName: "gasdargolani"), title: "Gasdar Givati גדס״ר גבעתי", summary: "Specialized Combat", description: "Each Gadsar is made up of three specialized Plugot (companies): Demolitions and combat engineering (Plugat Habalah Handasit, or Palhan), Recon and anti-terror (Plugat Siyur, Palsar) and Anti-Tank (Pluga Neged Tankim, or Orev).")
+        let unit12 = Unit(image: #imageLiteral(resourceName: "gasdargolani"), title: "Gasdar Golani גדס״ר גולני", summary: "Specialized Combat", description: "Each Gadsar is made up of three specialized Plugot (companies): Demolitions and combat engineering (Plugat Habalah Handasit, or Palhan), Recon and anti-terror (Plugat Siyur, Palsar) and Anti-Tank (Pluga Neged Tankim, or Orev).")
         let unit13 = Unit(image: #imageLiteral(resourceName: "gasdarnahal"), title: "Gasdar Nachal גדס״ר נחל", summary: "Specialized Combat", description: "Each Gadsar is made up of three specialized Plugot (companies): Demolitions and combat engineering (Plugat Habalah Handasit, or Palhan), Recon and anti-terror (Plugat Siyur, Palsar) and Anti-Tank (Pluga Neged Tankim, or Orev).")
          let unit14 = Unit(image: #imageLiteral(resourceName: "gasdartzanchanim"), title: "Gasdar Tzanchanim גדס״ר צנחנים", summary: "Specialized Combat", description: "Each Gadsar is made up of three specialized Plugot (companies): Demolitions and combat engineering (Plugat Habalah Handasit, or Palhan), Recon and anti-terror (Plugat Siyur, Palsar) and Anti-Tank (Pluga Neged Tankim, or Orev).")
         let unit15 = Unit(image: #imageLiteral(resourceName: "gasdargivati"), title: "Gasdar Givati גדס״ר גבעתי", summary: "Specialized Combat", description: "Each Gadsar is made up of three specialized Plugot (companies): Demolitions and combat engineering (Plugat Habalah Handasit, or Palhan), Recon and anti-terror (Plugat Siyur, Palsar) and Anti-Tank (Pluga Neged Tankim, or Orev).")
+        let unit16 = Unit(image: #imageLiteral(resourceName: "shaldag"), title: "Shaldag שלדג", summary: "Recon", description: "Shaldag's mission is to deploy undetected into combat and hostile environments to conduct special reconnaissance and establish assault zones or airfields, while simultaneously conducting air traffic control and commando actions.")
         
-        tempUnits.append(unit0)
-        tempUnits.append(unit1)
-        tempUnits.append(unit2)
-        tempUnits.append(unit3)
-        tempUnits.append(unit4)
+        
+        tempUnits.append(unit0) //info
         tempUnits.append(unit5)
-        tempUnits.append(unit6)
-        tempUnits.append(unit7)
-        tempUnits.append(unit8)
         tempUnits.append(unit9)
-        tempUnits.append(unit10)
-        tempUnits.append(unit11)
         tempUnits.append(unit12)
         tempUnits.append(unit13)
         tempUnits.append(unit14)
         tempUnits.append(unit15)
+        tempUnits.append(unit7)
+        tempUnits.append(unit4)
+
+        tempUnits.append(unit1)
+        tempUnits.append(unit10)
+        tempUnits.append(unit11)
+        tempUnits.append(unit8) //rimon
+        tempUnits.append(unit16)
+//shalfdag here
+        tempUnits.append(unit2) //shayetet
+        tempUnits.append(unit3)
+        tempUnits.append(unit6)
+  
+      
 
 
         return tempUnits

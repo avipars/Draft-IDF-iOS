@@ -23,6 +23,8 @@ class NonCombatViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setUI()
+        desc.sizeToFit()
+
     }
     
     func setUI() //passing data based on cell pic
