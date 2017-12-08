@@ -47,7 +47,7 @@ class RanksList: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == segueString {
-            let descVC = segue.destination as! ViewController
+            let descVC = segue.destination as! RanksViewController
             descVC.unit = sender as? Unit // casting
         }
     }
@@ -64,7 +64,7 @@ extension RanksList: UITableViewDelegate, UITableViewDataSource
         //where items lie in index
         let unit = units[indexPath.row] //subscripting
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: cellString) as! TableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellString) as! RanksTableViewCell
         
         cell.setUnit(unit: unit)
         
