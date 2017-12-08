@@ -13,6 +13,9 @@
 		3A02154E1F0940E800F7ADC1 /* CommandoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A02154D1F0940E800F7ADC1 /* CommandoViewController.swift */; };
 		3A09FA3D1F0E5CD700775244 /* webView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A09FA3C1F0E5CD700775244 /* webView.swift */; };
 		3A31B3481F1774A600B5A357 /* contactAPP.html in Resources */ = {isa = PBXBuildFile; fileRef = 3A31B3471F1774A600B5A357 /* contactAPP.html */; };
+		3A6D7AC81FDA978B00B32787 /* RanksList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6D7AC71FDA978B00B32787 /* RanksList.swift */; };
+		3A6D7ACA1FDA97A000B32787 /* RanksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6D7AC91FDA97A000B32787 /* RanksViewController.swift */; };
+		3A6D7ACC1FDA97B600B32787 /* RanksTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6D7ACB1FDA97B600B32787 /* RanksTableViewCell.swift */; };
 		3A9E8E971F02910600564087 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9E8E961F02910600564087 /* AppDelegate.swift */; };
 		3A9E8E991F02910600564087 /* CombatList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9E8E981F02910600564087 /* CombatList.swift */; };
 		3A9E8E9E1F02910600564087 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A9E8E9C1F02910600564087 /* Main.storyboard */; };
@@ -32,6 +35,9 @@
 		3A02154D1F0940E800F7ADC1 /* CommandoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandoViewController.swift; sourceTree = "<group>"; };
 		3A09FA3C1F0E5CD700775244 /* webView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = webView.swift; sourceTree = "<group>"; };
 		3A31B3471F1774A600B5A357 /* contactAPP.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = contactAPP.html; sourceTree = "<group>"; };
+		3A6D7AC71FDA978B00B32787 /* RanksList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RanksList.swift; sourceTree = "<group>"; };
+		3A6D7AC91FDA97A000B32787 /* RanksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RanksViewController.swift; sourceTree = "<group>"; };
+		3A6D7ACB1FDA97B600B32787 /* RanksTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RanksTableViewCell.swift; sourceTree = "<group>"; };
 		3A9E8E931F02910600564087 /* DraftIDF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DraftIDF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A9E8E961F02910600564087 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A9E8E981F02910600564087 /* CombatList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombatList.swift; sourceTree = "<group>"; };
@@ -70,6 +76,9 @@
 		3A6D7AC61FDA96D800B32787 /* Ranks */ = {
 			isa = PBXGroup;
 			children = (
+				3A6D7AC71FDA978B00B32787 /* RanksList.swift */,
+				3A6D7AC91FDA97A000B32787 /* RanksViewController.swift */,
+				3A6D7ACB1FDA97B600B32787 /* RanksTableViewCell.swift */,
 			);
 			path = Ranks;
 			sourceTree = "<group>";
@@ -228,8 +237,11 @@
 				3A9E8EB01F02D69B00564087 /* Unit.swift in Sources */,
 				3A9E8E971F02910600564087 /* AppDelegate.swift in Sources */,
 				3A0182BB1F0ABD8500C0D44E /* NonCombatViewController.swift in Sources */,
+				3A6D7ACC1FDA97B600B32787 /* RanksTableViewCell.swift in Sources */,
 				3A02154E1F0940E800F7ADC1 /* CommandoViewController.swift in Sources */,
 				3A9E8E991F02910600564087 /* CombatList.swift in Sources */,
+				3A6D7ACA1FDA97A000B32787 /* RanksViewController.swift in Sources */,
+				3A6D7AC81FDA978B00B32787 /* RanksList.swift in Sources */,
 				3AD5C2011F08EA4500459FD6 /* CommandoList.swift in Sources */,
 				3AD5C2051F08FAD500459FD6 /* CommandoTableViewCell.swift in Sources */,
 			);
