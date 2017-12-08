@@ -774,7 +774,7 @@
         <scene sceneID="2E8-Nf-ct8">
             <objects>
                 <navigationController title="Ranks" automaticallyAdjustsScrollViewInsets="NO" id="sdo-1p-CDe" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Ranks" image="ic_info_outline" id="WeS-3K-82r"/>
+                    <tabBarItem key="tabBarItem" title="Ranks" image="list-simple-star-7" id="WeS-3K-82r"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="x4I-uk-MDJ">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -855,10 +855,10 @@
         <image name="bardelas" width="120" height="162"/>
         <image name="hachinuch" width="120" height="162"/>
         <image name="ic_accessibility" width="24" height="24"/>
-        <image name="ic_info_outline" width="24" height="24"/>
         <image name="ic_language" width="24" height="24"/>
         <image name="ic_laptop_mac" width="24" height="24"/>
         <image name="ic_security" width="24" height="24"/>
+        <image name="list-simple-star-7" width="30" height="30"/>
         <image name="matkal" width="126" height="75"/>
     </resources>
 </document>
