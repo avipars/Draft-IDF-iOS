@@ -41,7 +41,7 @@ class CommandoList: UIViewController {
         
         //Sample
 //         let unit0 = Unit(image: #imageLiteral(resourceName: "ic_info_outline"), title: "Special Forces", summary: "Summary", description: "Description")
-        let unit0 = Unit(image: #imageLiteral(resourceName: "ic_info_outline"), title: "Special Forces", summary: "",description: "The following units are some of the most elite in the world. Their training is long and very intense, only for the best of the best. It is rare that a Lone Soldier passes all the requirments to join these units and complete training. A very high level of Hebrew is required as well.") //image literals
+        let unit0 = Unit(image: #imageLiteral(resourceName: "ic_info_outline"), title: "Special Forces", summary: "",description: "The following units are some of the most elite in the world. Their training is long and very intense, only for the best of the best. Keep in mind, Lone Soldiers and Olim can't always pass requirments to join these units and complete training. A very high level of Hebrew is required as well.") //image literals
         let unit1 = Unit(image: #imageLiteral(resourceName: "matkal"), title: "Matkal מטכ״ל", summary: "Advanced Recon",description: "Top intelligence unit in the IDF, tasked with field intelligence-gathering, deep reconnaissance, counter-terrorism and hostage rescue") //image literals
         let unit2 = Unit(image: #imageLiteral(resourceName: "shayetet13"), title: "Shayetet 13 שייטת", summary: "Navy Seals", description: "Top unit of the Israeli Navy. They specialize in sea-to-land incursions, counter-terrorism, sabotage, maritime intelligence-gathering, maritime hostage rescue, and vessel boarding.")
         let unit3 = Unit(image: #imageLiteral(resourceName: "unit669"), title: "Unit 669 יחידת", summary: "Search and Rescue", description: "The IDF's primary combat rescue unit. Tasked with airborne rescue and extraction of soldiers. Provides support for the most elite units.")
@@ -58,28 +58,30 @@ class CommandoList: UIViewController {
          let unit14 = Unit(image: #imageLiteral(resourceName: "gasdartzanchanim"), title: "Gadsar Tzanchanim גדס״ר צנחנים", summary: "Specialized Combat", description: "Each Gadsar is made up of three specialized Plugot (companies): Demolitions and combat engineering (Plugat Habalah Handasit, or Palhan), Recon and anti-terror (Plugat Siyur, Palsar) and Anti-Tank (Pluga Neged Tankim, or Orev).")
         let unit15 = Unit(image: #imageLiteral(resourceName: "gasdargivati"), title: "Gasdar Givati גדס״ר גבעתי", summary: "Specialized Combat", description: "Each Gadsar is made up of three specialized Plugot (companies): Demolitions and combat engineering (Plugat Habalah Handasit, or Palhan), Recon and anti-terror (Plugat Siyur, Palsar) and Anti-Tank (Pluga Neged Tankim, or Orev).")
         let unit16 = Unit(image: #imageLiteral(resourceName: "shaldag"), title: "Shaldag שלדג", summary: "Recon", description: "Shaldag's mission is to deploy undetected into combat and hostile environments to conduct special reconnaissance and establish assault zones or airfields, while simultaneously conducting air traffic control and commando actions.")
-        
+        let unit17 = Unit(image: #imageLiteral(resourceName: "meitar"), title: "Meitar מיטר", summary: "Artillery ",description: "An elite artillery unit which protects all across Israel and prepares for future conflicts in artillery close to the borders.")
         
         tempUnits.append(unit0) //info
-        tempUnits.append(unit5)
-        tempUnits.append(unit9)
-        tempUnits.append(unit12)
-        tempUnits.append(unit13)
-        tempUnits.append(unit14)
-        tempUnits.append(unit15)
-        tempUnits.append(unit7)
-        tempUnits.append(unit4)
-
-        tempUnits.append(unit1)
-        tempUnits.append(unit10)
-        tempUnits.append(unit11)
-        tempUnits.append(unit8) //rimon
-        tempUnits.append(unit16)
-//shalfdag here
+        
+        tempUnits.append(unit3) //669
+        tempUnits.append(unit6) //yahalom
+        tempUnits.append(unit4) //maglan
         tempUnits.append(unit2) //shayetet
-        tempUnits.append(unit3)
-        tempUnits.append(unit6)
-  
+        tempUnits.append(unit11) //palzar 7
+        tempUnits.append(unit9) //egoz
+        tempUnits.append(unit8) //rimon
+        tempUnits.append(unit16) //shaldag
+        tempUnits.append(unit12)//gadsar
+        tempUnits.append(unit13) //gadsar
+        tempUnits.append(unit14) //gadsar
+        tempUnits.append(unit15) // gadsar
+        tempUnits.append(unit5) //duvdevan
+        tempUnits.append(unit1) //matkal
+        tempUnits.append(unit10) //oketz
+        tempUnits.append(unit17)//meitar
+        tempUnits.append(unit7) //lotar
+
+//shalfdag here
+
       
 
 

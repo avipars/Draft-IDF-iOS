@@ -67,6 +67,13 @@
 			name = NonCombat;
 			sourceTree = "<group>";
 		};
+		3A6D7AC61FDA96D800B32787 /* Ranks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Ranks;
+			sourceTree = "<group>";
+		};
 		3A9E8E8A1F02910600564087 = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +117,7 @@
 		3AD5C1FE1F08E9C600459FD6 /* UnitArrays */ = {
 			isa = PBXGroup;
 			children = (
+				3A6D7AC61FDA96D800B32787 /* Ranks */,
 				3AD5C2021F08FA9300459FD6 /* Combat */,
 				3A0182B91F0ABD6900C0D44E /* NonCombat */,
 				3AD5C2031F08FAA700459FD6 /* Commando */,
@@ -170,6 +178,7 @@
 					3A9E8E921F02910600564087 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = AKTQEN9G8G;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -360,7 +369,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -379,7 +389,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
